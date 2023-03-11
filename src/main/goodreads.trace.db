@@ -1,0 +1,6 @@
+2023-03-04 11:27:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update book set name = ? and [*]where id = ?"; expected "INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+update book set name = ? and where id = ? [42001-214]
+2023-03-04 11:33:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update book set name = ? and [*]where id = ?"; expected "INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+update book set name = ? and where id = ? [42001-214]
